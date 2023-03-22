@@ -62,4 +62,4 @@ I intend on making this project public once I deem it fully-complete.
 
 
 <hr>
-<a href="https://raw.githubusercontent.com/CosmicStar98/heyjoeway.github.io/master/assets_external/posts/bonziworldenhanced/bonziworldenhanced.txt.asc" alt="View the signed txt version of this blog post." title="View the signed txt version of this blog post.">PGP Signature</a>
+<a href="https://raw.githubusercontent.com/CosmicStar98/cosmicstar98.github.io/master/assets_external/posts/bonziworldenhanced/bonziworldenhanced.txt.asc" alt="View the signed txt version of this blog post." title="View the signed txt version of this blog post.">PGP Signature</a>
