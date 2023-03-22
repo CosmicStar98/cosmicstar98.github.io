@@ -1,0 +1,239 @@
+* {
+    scrollbar-color: #111 #000;
+}
+
+/* ========================================================================= */
+
+.blur-in {
+    animation-name: blur-in;
+    animation-timing-function: cubic-bezier(0, 0.55, 0.45, 1);
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    filter: opacity(0%);
+    -webkit-filter: opacity(0%);
+}
+
+@keyframes blur-in {
+    from {
+        filter: blur(128px) opacity(0%);
+        -webkit-filter: blur(128px) opacity(0%);
+        scale: 2;
+    }
+    to {
+        filter: blur(0px) opacity(100%);
+        -webkit-filter: blur(0px) opacity(100%);
+        scale: 1;
+    }
+}
+
+// Fuck you Safari
+.blur-in-noscale {
+    animation-name: blur-in-noscale;
+    animation-timing-function: cubic-bezier(0, 0.55, 0.45, 1);
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    filter: opacity(0%);
+    -webkit-filter: opacity(0%);
+}
+
+@keyframes blur-in-noscale {
+    from {
+        filter: blur(128px) opacity(0%);
+        -webkit-filter: blur(128px) opacity(0%);
+    }
+    to {
+        filter: blur(0px) opacity(100%);
+        -webkit-filter: blur(0px) opacity(100%);
+    }
+}
+
+/* ========================================================================= */
+
+.bg-element {
+    font-family: 'franklin_gothicregular';
+    position: fixed;
+    font-size: 350px;
+    opacity: 0.075;
+    user-select: none;
+    -webkit-user-select: none;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+#bg-top-left { 
+    font-size: calc(min(25vw, 350px));
+    width: calc(100vw + 0.2em);
+    top: -0.4em;
+    left: -0.2em;
+    animation-delay: 0.1s;
+    overflow-x: hidden;
+}
+
+#bg-bottom-right { 
+    font-size: calc(min(100vw, 800px));
+
+    rotate: 30deg;
+
+    bottom: -0.325em;
+    right: -0.1em;
+
+    animation-delay: 0.5s;
+}
+
+/* ========================================================================= */
+
+.clickable {
+    cursor: pointer;
+    scale: 100%;
+    transition: opacity 0.1s, scale 0.05s;
+    transition-timing-function: cubic-bezier(0, 0.55, 0.45, 1);
+}
+
+.clickable:hover {
+    opacity: 100%;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.clickable:active {
+    scale: 90%;
+    opacity: 90%;
+    background-color: rgba(255,255,255,0.05);    
+}
+
+/* ========================================================================= */
+
+.shadow, .fig-bg-light, pre {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+pre, .fig-bg-light {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #222;
+    background-color: #2e2e2e66;
+    backdrop-filter: blur(32px);
+    -webkit-backdrop-filter: blur(32px);
+}
+
+.fig-bg-light {
+    border-color: #787878;
+    color: black;
+    background: transparent;
+    backdrop-filter: invert(1) brightness(50%) contrast(200%) brightness(200%) blur(16px);
+    -webkit-backdrop-filter: invert(1) brightness(50%) contrast(200%) brightness(200%) blur(16px);
+}
+
+.fig-bg {
+    margin-bottom: 16px;
+
+    & > * {
+        margin: 8px;
+        height: auto;
+    }
+
+    &:not(.fig-right, .fig-left) {
+        display: flex;
+        flex-wrap: wrap;
+
+        & > * {
+            flex-basis: 200px;
+            min-width: 266px;
+            flex-grow: 1;
+        }
+    }
+
+    & > *:first-child:nth-last-child(1) {
+        width: 100%;
+        margin: 8px 0;
+
+    }
+}
+
+.fig-right, .fig-left {
+    padding: 8px;
+    text-align: center;
+    display: block;
+
+    & > *:not(:last-child) {
+        padding-bottom: 8px;
+    }
+}
+
+@media (min-width: 600px) {
+    .fig-right, .fig-left {
+        width: 33%;
+    
+    }
+}
+
+.fig-right {
+    float: right;
+}
+
+.fig-left {
+    float: left;
+}
+
+.page-content {
+    animation-duration: 0.5s !important;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    align-items: center;
+
+    img {
+        width: 215px;
+        margin: 8px;
+    }
+
+    br {
+        display: none;
+    }
+}
+
+hr {
+    border: none;
+    border-bottom: rgba(128, 128, 128, 0.5) dashed 1px;
+}
+
+.categories {
+    display: inline;
+
+    a {
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        background: rgba(255, 255, 255, 0.3);
+        color: black;
+        height: 20px;
+        line-height: 20px;
+        text-transform: lowercase;
+        font-size: 11px;
+        margin-top: 8px;
+        margin-right: 8px;
+        border-radius: 6px;
+        padding: 0px 6px;
+        position: relative;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+}
+
+// Nicer placeholder for broken images
+img {
+    position: relative;
+}
+
+img::after {
+    content: "�";
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 128px;
+    opacity: 25%;
+}
