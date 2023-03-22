@@ -4,7 +4,6 @@ title:  "BonziWORLD: Enhanced | A new WORLD!"
 date:   2023-03-22
 categories: bw bwe bonziworld javascript nodejs development
 comments_id: 1
-tags: pinned
 ---
 > BonziWORLD: Enhanced - The latest and greatest BonziWORLD project designed to overhaul everything about everybody's most ~~hated~~ loved gorilla chatting site!
 >  
