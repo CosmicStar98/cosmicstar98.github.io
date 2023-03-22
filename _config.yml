@@ -24,7 +24,7 @@ title: cosmicstar98.
 email: dev.cosmicstar98@protonmail.com
 description: I hit a bunch of buttons and sometimes it makes light flash in a pattern that looks cool.
 baseurl: "/" # the subpath of your site, e.g. /blog
-externalurl: "https://raw.githubusercontent.com/cosmicstar98/heyjoeway.github.io/master/" # root for external assets
+externalurl: "https://raw.githubusercontent.com/cosmicstar98/cosmicstar98.github.io/master/" # root for external assets
 url: "https://cosmicstar98.github.com/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  cosmicstar98
 show_excerpts: true
@@ -38,7 +38,7 @@ plugins:
 
 permalink: "/:title/"
 
-github_comments_repository: cosmicstar98/heyjoeway.github.io
+github_comments_repository: cosmicstar98/cosmicstar98.github.io
 
 # disqus:
 #   shortname: heyjoeway
