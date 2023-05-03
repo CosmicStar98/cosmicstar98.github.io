@@ -52,6 +52,5 @@ I won't force anybody to use BWE under any circumstances. (*Moderation and staff
 <br>
 **TL:DR**, You're free to choose whichever bonziworld server you wish to chat on. Personally, I do not care if this project gains popularity or not, I'm just bringing this experiment out to the world.
 
-**Last Updated on Wed, 03 May 2023**
-
 <hr>
+<b>Last Updated on Wed, 03 May 2023</b>
