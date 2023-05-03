@@ -5,10 +5,8 @@ date:   2023-03-22
 categories: bw bwe bonziworld javascript nodejs development
 comments_id: 1
 ---
-> BonziWORLD: Enhanced - The latest and greatest BonziWORLD project designed to overhaul everything about everybody's most ~~hated~~ loved gorilla chatting site!
+> BonziWORLD: Enhanced - The latest and greatest BonziWORLD project designed to overhaul the most infamous gorilla chatting site!
 >  
-> This has been in on/off development for the past 4 and a half years!
-
 
 ### Differences from vanilla BonziWORLD
 BWE uses the latest version of socket.io, sanitize-html and nodejs to provide a safe and secure experence for everyone.
@@ -34,9 +32,8 @@ Additionally, the following additions have been made to JoeJudge's code stack:
 
 
 ### How do i acquire such an amazing version of bonziworld?
-> Currently, I have no plans to open-source this project at the moment. Nor do I intend to distribute it out to anybody. Sorry  :-)
-> 
-*Why?* Because I do not want to distribute a project which I do not deem complete yet. There's still many many changes I intend to make before I see this as a prefected project.
+> This project is open-source!
+> Check it out on [github](https://github.com/CosmicStar98/BonziWORLD-Enhanced "The official BWE repository!")!
 
 ### Why have you done this? Isn't bonziworld fine on its own?
 While it's true that vanilla copies of bonziworld are okay, it doesn't mean we should stick with an old project which hasn't seen an official update from Joe since 2016.
@@ -55,10 +52,6 @@ I won't force anybody to use BWE under any circumstances. (*Moderation and staff
 <br>
 **TL:DR**, You're free to choose whichever bonziworld server you wish to chat on. Personally, I do not care if this project gains popularity or not, I'm just bringing this experiment out to the world.
 
-
-## Going Forward
-I intend on making this project public once I deem it fully-complete.
-
+**Last Updated on Wed, 03 May 2023**
 
 <hr>
-<a href="https://raw.githubusercontent.com/CosmicStar98/cosmicstar98.github.io/master/assets_external/posts/bonziworldenhanced/bonziworldenhanced.txt.asc" alt="View the signed txt version of this blog post." title="View the signed txt version of this blog post.">PGP Signature</a>
